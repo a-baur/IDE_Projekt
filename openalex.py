@@ -13,10 +13,7 @@ def oa_request(entity, filters):
     }
     results = []
     while True:
-        resp = requests.get(
-            f"https://api.openalex.org/{entity}", params=params
-        ).json()
-        print(f"{resp}\r", end="")
+        resp = requests.get(f"https://api.openalex.org/{entity}", params=params).json()
         if "next_cursor" not in resp["meta"]:
             break
         results.extend(resp["results"])
