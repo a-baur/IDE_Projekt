@@ -1,23 +1,27 @@
 import requests
 
 
-def oa_request(entity, filters):
+def oa_request(entity, filters, per_page=100, pages=None):
     """
     Request openalex API.
     """
     params = {
         "mailto": "alexander.baur@studium.uni-hamburg.de",
         "filter": ','.join([f"{comp}:{val}" for comp, val in filters.items()]),
-        "per_page": 100,
+        "per_page": per_page,
         "cursor": "*",
     }
     results = []
+    page = 1
     while True:
         resp = requests.get(f"https://api.openalex.org/{entity}", params=params).json()
         if "next_cursor" not in resp["meta"]:
             break
+        if pages and page > pages:
+            break
         results.extend(resp["results"])
         params["cursor"] = resp["meta"]["next_cursor"]
+        page += 1
     return results
 
 

@@ -1,0 +1,14 @@
+digraph {
+  charset="utf-8";
+
+  // Edges
+  "Rhttps://explore.openalex.org/author/A1907387910" -> "Rhttps://schema.org/Person" [label="rdf:type"];
+  "Rhttps://explore.openalex.org/author/A1907387910" -> "Rhttps://explore.openalex.org/institution/I159176309" [label=""];
+  "Rhttps://explore.openalex.org/author/A1907387910" -> "LFrank Steinicke" [label=""];
+
+  // Nodes
+  "LFrank Steinicke" [label="Frank Steinicke",shape=record];
+  "Rhttps://explore.openalex.org/author/A1907387910" [URL="https://explore.openalex.org/author/A1907387910",label="https://explore.openalex.org/author/A1907387910",shape=ellipse,color=blue];
+  "Rhttps://explore.openalex.org/institution/I159176309" [URL="https://explore.openalex.org/institution/I159176309",label="https://explore.openalex.org/institution/I159176309",shape=ellipse,color=blue];
+  "Rhttps://schema.org/Person" [URL="https://schema.org/Person",label="https://schema.org/Person",shape=ellipse,color=blue];
+}
