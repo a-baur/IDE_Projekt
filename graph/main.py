@@ -21,6 +21,7 @@ def test_add_author():
 
 def test_query():
     g = Graph()
+    g.parse("graph.ttl")
 
     knows_query = """
     SELECT DISTINCT ?work
