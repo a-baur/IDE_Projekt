@@ -1,0 +1,2984 @@
+[
+    {
+        "search_name": "Fares Abawi",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2902237727",
+                "display_name": "Fares Abawi"
+            }
+        ]
+    },
+    {
+        "search_name": "Ashad Achgarnush",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Daniel Ahlers",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2974375739",
+                "display_name": "Daniel Ahlers"
+            }
+        ]
+    },
+    {
+        "search_name": "Kyra Ahrens",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3163725207",
+                "display_name": "Kyra Ahrens"
+            }
+        ]
+    },
+    {
+        "search_name": "Philipp Allgeuer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Jakob Andersen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Johanna Ansohn Mcdougall",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3192909757",
+                "display_name": "Johanna Ansohn McDougall"
+            }
+        ]
+    },
+    {
+        "search_name": "Saba Anwar",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Oscar Javier Ariza Nunez",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2696120757",
+                "display_name": "Oscar Javier Ariza Nunez"
+            },
+            {
+                "id": "https://openalex.org/A4282095395",
+                "display_name": "Oscar Javier Ariza Nunez"
+            }
+        ]
+    },
+    {
+        "search_name": "Anne Awizen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Abinew Ali Ayele",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Fynn Bachmann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Christian Bähnisch",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1751956237",
+                "display_name": "Christian Bähnisch"
+            }
+        ]
+    },
+    {
+        "search_name": "Debayan Banerjee",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2783570971",
+                "display_name": "Debayan Banerjee"
+            }
+        ]
+    },
+    {
+        "search_name": "Timo Baumann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2161703719",
+                "display_name": "Timo Baumann"
+            }
+        ]
+    },
+    {
+        "search_name": "Jan Baumbach",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2147014847",
+                "display_name": "Jan Baumbach"
+            },
+            {
+                "id": "https://openalex.org/A4208927621",
+                "display_name": "Jan Baumbach"
+            },
+            {
+                "id": "https://openalex.org/A4209777219",
+                "display_name": "Jan Baumbach"
+            },
+            {
+                "id": "https://openalex.org/A4225305355",
+                "display_name": "Jan Baumbach"
+            },
+            {
+                "id": "https://openalex.org/A4210004157",
+                "display_name": "Jan Baumbach"
+            }
+        ]
+    },
+    {
+        "search_name": "Dennis Becker",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Andreas Beckert",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Andreas Beckert",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Louis Bellmann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2798845518",
+                "display_name": "Louis Bellmann"
+            }
+        ]
+    },
+    {
+        "search_name": "Petra Berenbrink",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2974038941",
+                "display_name": "Petra Berenbrink"
+            },
+            {
+                "id": "https://openalex.org/A2992896312",
+                "display_name": "Petra Berenbrink"
+            }
+        ]
+    },
+    {
+        "search_name": "Ole Berg",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Marc Bestmann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2530901143",
+                "display_name": "Marc Bestmann"
+            },
+            {
+                "id": "https://openalex.org/A4227264382",
+                "display_name": "Marc Bestmann"
+            },
+            {
+                "id": "https://openalex.org/A4207832813",
+                "display_name": "Marc Bestmann"
+            }
+        ]
+    },
+    {
+        "search_name": "Eugen Betke",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Chris Biemann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1441874829",
+                "display_name": "Chris Biemann"
+            },
+            {
+                "id": "https://openalex.org/A2787751670",
+                "display_name": "Chris Biemann"
+            },
+            {
+                "id": "https://openalex.org/A4209017372",
+                "display_name": "Chris Biemann"
+            },
+            {
+                "id": "https://openalex.org/A4225820578",
+                "display_name": "Chris Biemann"
+            },
+            {
+                "id": "https://openalex.org/A4229236067",
+                "display_name": "Chris Biemann"
+            }
+        ]
+    },
+    {
+        "search_name": "Felix Biermeier",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3087285622",
+                "display_name": "Felix Biermeier"
+            }
+        ]
+    },
+    {
+        "search_name": "Volodymyr Biryuk",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Laura Bisby",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Eva Bittner",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2092333561",
+                "display_name": "Eva A. C. Bittner"
+            },
+            {
+                "id": "https://openalex.org/A4211306738",
+                "display_name": "Eva Bittner"
+            }
+        ]
+    },
+    {
+        "search_name": "Tilo Böhmann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1893175601",
+                "display_name": "Tilo Böhmann"
+            }
+        ]
+    },
+    {
+        "search_name": "Wolf-Guido Bolick",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Leif Bonorden",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Marten Borchers",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Michael Borchers",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Heiko Tobias Bornholdt",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Abir Bouraffa",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3089154834",
+                "display_name": "Abir Bouraffa"
+            },
+            {
+                "id": "https://openalex.org/A4225689181",
+                "display_name": "Abir Bouraffa"
+            }
+        ]
+    },
+    {
+        "search_name": "Julia Bräker",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3138362371",
+                "display_name": "Julia Bräker"
+            },
+            {
+                "id": "https://openalex.org/A4202260259",
+                "display_name": "Julia Bräker"
+            }
+        ]
+    },
+    {
+        "search_name": "Kai Brüssau",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3091963760",
+                "display_name": "Kai Brüssau"
+            }
+        ]
+    },
+    {
+        "search_name": "Thomas Bünnemann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Christian Burkert",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2806509627",
+                "display_name": "Christian Burkert"
+            }
+        ]
+    },
+    {
+        "search_name": "Fabian Burmeister",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2890963455",
+                "display_name": "Fabian Burmeister"
+            }
+        ]
+    },
+    {
+        "search_name": "Hugo Cesar Carneiro",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Anna Cavasin",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Wenkai Chen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Zhaopeng Chen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2973603139",
+                "display_name": "Zhaopeng Chen"
+            },
+            {
+                "id": "https://openalex.org/A3173799346",
+                "display_name": "Zhaopeng Chen"
+            },
+            {
+                "id": "https://openalex.org/A4209147652",
+                "display_name": "Zhaopeng Chen"
+            }
+        ]
+    },
+    {
+        "search_name": "Yan Chen-Zhang",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Lin Cong",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3044172139",
+                "display_name": "Lin Cong"
+            },
+            {
+                "id": "https://openalex.org/A4207672028",
+                "display_name": "Lin Cong"
+            }
+        ]
+    },
+    {
+        "search_name": "Izabel Cvetkovic",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4211306739",
+                "display_name": "Izabel Cvetkovic"
+            }
+        ]
+    },
+    {
+        "search_name": "Henrique da Costa Siqueira",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Christoph Damerius",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3087220810",
+                "display_name": "Christoph Damerius"
+            }
+        ]
+    },
+    {
+        "search_name": "Alexandra Dannenberg",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Danilo de Oliveira",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Daniel Demmler",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1968796475",
+                "display_name": "Daniel Demmler"
+            }
+        ]
+    },
+    {
+        "search_name": "Konrad Diedrich",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3017258834",
+                "display_name": "Konrad Diedrich"
+            }
+        ]
+    },
+    {
+        "search_name": "Marina Ɖimber",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Kerstin Diop-Nickel",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Uschi Dolfus",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Leonie Dreschler-Fischer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2286639748",
+                "display_name": "Leonie S. Dreschler-Fischer"
+            }
+        ]
+    },
+    {
+        "search_name": "Janick Edinger",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3192626483",
+                "display_name": "Janick Edinger"
+            }
+        ]
+    },
+    {
+        "search_name": "Emanuel Ehmki",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2775153051",
+                "display_name": "Emanuel S. R. Ehmki"
+            }
+        ]
+    },
+    {
+        "search_name": "Christiane Ehrt",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3021919915",
+                "display_name": "Christiane Ehrt"
+            }
+        ]
+    },
+    {
+        "search_name": "Christiane Ehrt",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3021919915",
+                "display_name": "Christiane Ehrt"
+            }
+        ]
+    },
+    {
+        "search_name": "Doğanalp Ergenç",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4208060711",
+                "display_name": "Doğanalp Ergenç"
+            }
+        ]
+    },
+    {
+        "search_name": "Rainer Faehrrolfes",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Huajian Fang",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3129504985",
+                "display_name": "Huajian Fang"
+            }
+        ]
+    },
+    {
+        "search_name": "Fariba Fazli",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Hannes Federrath",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A91793043",
+                "display_name": "Hannes Federrath"
+            },
+            {
+                "id": "https://openalex.org/A4221756569",
+                "display_name": "Hannes Federrath"
+            },
+            {
+                "id": "https://openalex.org/A4221549216",
+                "display_name": "Hannes Federrath"
+            }
+        ]
+    },
+    {
+        "search_name": "Amit Fenn",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Laura Fichtner",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Niklas Fiedler",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2965195014",
+                "display_name": "Niklas Fiedler"
+            },
+            {
+                "id": "https://openalex.org/A4202555962",
+                "display_name": "Niklas Fiedler"
+            }
+        ]
+    },
+    {
+        "search_name": "Mathias Fischer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2569375904",
+                "display_name": "Mathias Fischer"
+            },
+            {
+                "id": "https://openalex.org/A4208060712",
+                "display_name": "Mathias Fischer"
+            },
+            {
+                "id": "https://openalex.org/A4282610824",
+                "display_name": "Mathias Fischer"
+            }
+        ]
+    },
+    {
+        "search_name": "Tim Fischer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Florian Flachsenberg",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2341577382",
+                "display_name": "Florian Flachsenberg"
+            },
+            {
+                "id": "https://openalex.org/A3012665770",
+                "display_name": "Florian Flachsenberg"
+            }
+        ]
+    },
+    {
+        "search_name": "Farnaz Fotrousi",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A314567904",
+                "display_name": "Farnaz Fotrousi"
+            }
+        ]
+    },
+    {
+        "search_name": "Wiebke Frauen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Jann Philipp Freiwald",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2534767218",
+                "display_name": "Jann Philipp Freiwald"
+            }
+        ]
+    },
+    {
+        "search_name": "Simone Frintrop",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A85885510",
+                "display_name": "Simone Frintrop"
+            },
+            {
+                "id": "https://openalex.org/A4282522708",
+                "display_name": "Simone Frintrop"
+            },
+            {
+                "id": "https://openalex.org/A4211629567",
+                "display_name": "Simone Frintrop"
+            }
+        ]
+    },
+    {
+        "search_name": "Di Fu",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Anna Fuchs",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3042479029",
+                "display_name": "Anna-Riitta Fuchs"
+            },
+            {
+                "id": "https://openalex.org/A4221765835",
+                "display_name": "Anna Fuchs"
+            },
+            {
+                "id": "https://openalex.org/A4283187175",
+                "display_name": "Anna Fuchs"
+            }
+        ]
+    },
+    {
+        "search_name": "Jenny Gabel",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3090128464",
+                "display_name": "Jenny Gabel"
+            }
+        ]
+    },
+    {
+        "search_name": "Connor Gäde",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Larissa Gebken",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Sebastian Gerdes",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2125046088",
+                "display_name": "Sebastian Gerdes"
+            }
+        ]
+    },
+    {
+        "search_name": "Melanie Geringhoff",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Timo Gerkmann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A56333724",
+                "display_name": "Timo Gerkmann"
+            }
+        ]
+    },
+    {
+        "search_name": "Daniel Glake",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2783856681",
+                "display_name": "Daniel Glake"
+            }
+        ]
+    },
+    {
+        "search_name": "Johannes Göbel",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2102624346",
+                "display_name": "Johannes Göbel"
+            }
+        ]
+    },
+    {
+        "search_name": "Michael Görner",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2892235925",
+                "display_name": "Michael Görner"
+            },
+            {
+                "id": "https://openalex.org/A4266684771",
+                "display_name": "Michael Görner"
+            }
+        ]
+    },
+    {
+        "search_name": "Joel Graef",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3046620649",
+                "display_name": "Joel Graef"
+            }
+        ]
+    },
+    {
+        "search_name": "Michael Größler",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Jasper Güldenstein",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Torben Gutermuth",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Lena Hackl",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Christine Häusser",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Muhammad Burhan Hafez",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2201846336",
+                "display_name": "Muhammad Burhan Hafez"
+            }
+        ]
+    },
+    {
+        "search_name": "Tim Christopher Hahn",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Björn Hanssen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Tobias Harren",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4212482904",
+                "display_name": "Tobias Harren"
+            }
+        ]
+    },
+    {
+        "search_name": "Judith Hartfill",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3089883842",
+                "display_name": "Judith Hartfill"
+            }
+        ]
+    },
+    {
+        "search_name": "Michael Hartung",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Hans Ole Hatzel",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Christopher Haubeck",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A104787479",
+                "display_name": "Christopher Haubeck"
+            }
+        ]
+    },
+    {
+        "search_name": "Michael Haustermann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2396471941",
+                "display_name": "Michael Haustermann"
+            }
+        ]
+    },
+    {
+        "search_name": "Leonard Heilig",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2108652359",
+                "display_name": "Leonard Heilig"
+            }
+        ]
+    },
+    {
+        "search_name": "Norman Hendrich",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A263544072",
+                "display_name": "Norman Hendrich"
+            },
+            {
+                "id": "https://openalex.org/A4202555964",
+                "display_name": "Norman Hendrich"
+            },
+            {
+                "id": "https://openalex.org/A4207672029",
+                "display_name": "Norman Hendrich"
+            },
+            {
+                "id": "https://openalex.org/A4227986100",
+                "display_name": "Norman Hendrich"
+            },
+            {
+                "id": "https://openalex.org/A4207832814",
+                "display_name": "Norman Hendrich"
+            }
+        ]
+    },
+    {
+        "search_name": "Julia Hertel",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2972749087",
+                "display_name": "Julia Hertel"
+            }
+        ]
+    },
+    {
+        "search_name": "Rainer Herzog",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2504973175",
+                "display_name": "Rainer Herzog"
+            }
+        ]
+    },
+    {
+        "search_name": "Marvin Heuer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Marc Heydorn",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Andreas Heymann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2032268904",
+                "display_name": "Andreas Heymann"
+            }
+        ]
+    },
+    {
+        "search_name": "Sophia Hönig",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Bettina Horlach",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A570936424",
+                "display_name": "Bettina Horlach"
+            }
+        ]
+    },
+    {
+        "search_name": "Hamed Hosseinpour",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Lothar Hotz",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2024403240",
+                "display_name": "Lothar Hotz"
+            }
+        ]
+    },
+    {
+        "search_name": "Katrin Howind",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Yihong Hu",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Junbo Huang",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Bahar Ilgen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Abhik Jana",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2703611218",
+                "display_name": "Abhik Jana"
+            },
+            {
+                "id": "https://openalex.org/A4220285582",
+                "display_name": "Abhik Jana"
+            },
+            {
+                "id": "https://openalex.org/A4229236063",
+                "display_name": "Abhik Jana"
+            }
+        ]
+    },
+    {
+        "search_name": "Karla Janssen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Dieter Jessen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Longquan Jiang",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Dirk Johannßen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2888166656",
+                "display_name": "Dirk Johannßen"
+            }
+        ]
+    },
+    {
+        "search_name": "Yannick Jonetzko",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2908275940",
+                "display_name": "Yannick Jonetzko"
+            },
+            {
+                "id": "https://openalex.org/A4202555963",
+                "display_name": "Yannick Jonetzko"
+            }
+        ]
+    },
+    {
+        "search_name": "Nidhi Joshi",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4224357726",
+                "display_name": "Nidhi Joshi"
+            }
+        ]
+    },
+    {
+        "search_name": "German Alberto Junca Bernal",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Shyukryan Karaosmanoglu",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "André Kelm",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Matthias Kerzel",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1904226921",
+                "display_name": "Matthias Kerzel"
+            },
+            {
+                "id": "https://openalex.org/A4209682907",
+                "display_name": "Matthias Kerzel"
+            }
+        ]
+    },
+    {
+        "search_name": "Felix Kiehn",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3204569874",
+                "display_name": "Felix Kiehn"
+            }
+        ]
+    },
+    {
+        "search_name": "Philipp Kisters",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2968885848",
+                "display_name": "Philipp Kisters"
+            }
+        ]
+    },
+    {
+        "search_name": "Marc Klegin",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Josefine Klimpel",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Peter Kling",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2051534351",
+                "display_name": "Peter Kling"
+            },
+            {
+                "id": "https://openalex.org/A2801943899",
+                "display_name": "Peter Kling"
+            }
+        ]
+    },
+    {
+        "search_name": "Ronald Kock",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Michael Köhler-Bußmeier",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1324630385",
+                "display_name": "Michael Köhler-Bußmeier"
+            }
+        ]
+    },
+    {
+        "search_name": "Katrin Köster",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Kevin Köster",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2897819655",
+                "display_name": "Kevin Köster"
+            }
+        ]
+    },
+    {
+        "search_name": "Katja Kösters",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Ogeigha Koroyin",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Mostafa Mohamed Kotb Said",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Angelie Kraft",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Anja Kroscky",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Lucie Kruse",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2888929333",
+                "display_name": "Lucie Kruse"
+            },
+            {
+                "id": "https://openalex.org/A4225089902",
+                "display_name": "Lucie Kruse"
+            }
+        ]
+    },
+    {
+        "search_name": "Emir Kučević",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Babett Kühne",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2889625894",
+                "display_name": "Babett Kühne"
+            }
+        ]
+    },
+    {
+        "search_name": "Gerrit Küstermann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Bjoern Kulas",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Anne Kunstmann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Christian Kurtz",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Egor Lakomkin",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2740183718",
+                "display_name": "Egor Lakomkin"
+            }
+        ]
+    },
+    {
+        "search_name": "Winfried Lamersdorf",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2157994539",
+                "display_name": "Winfried Lamersdorf"
+            }
+        ]
+    },
+    {
+        "search_name": "Mikko Lauri",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2129486924",
+                "display_name": "Mikko Lauri"
+            },
+            {
+                "id": "https://openalex.org/A4213679339",
+                "display_name": "Mikko Lauri"
+            }
+        ]
+    },
+    {
+        "search_name": "Navin Laxminarayanan Raj Prabhu",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Bunlong Lay",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Jae Hee Lee",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3183591381",
+                "display_name": "Jae Hee Lee"
+            }
+        ]
+    },
+    {
+        "search_name": "Anna Leffler",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Jean-Marie Lemercier",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Hermann Lenhart",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2611607806",
+                "display_name": "Hermann Lenhart"
+            },
+            {
+                "id": "https://openalex.org/A1990955360",
+                "display_name": "Hermann J. Lenhart"
+            },
+            {
+                "id": "https://openalex.org/A2343183561",
+                "display_name": "Hermann-Josef Lenhart"
+            }
+        ]
+    },
+    {
+        "search_name": "Jörn Leukert",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Tom Lewandowski",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Mengdi Li",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3191059107",
+                "display_name": "Mengdi Li"
+            }
+        ]
+    },
+    {
+        "search_name": "Shuang Li",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4209147651",
+                "display_name": "Shuang Li"
+            },
+            {
+                "id": "https://openalex.org/A4207672030",
+                "display_name": "Shuang Li"
+            },
+            {
+                "id": "https://openalex.org/A4226760049",
+                "display_name": "Shuang Li"
+            }
+        ]
+    },
+    {
+        "search_name": "Hongzhuo Liang",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2890556054",
+                "display_name": "Hongzhuo Liang"
+            },
+            {
+                "id": "https://openalex.org/A4207672027",
+                "display_name": "Hongzhuo Liang"
+            }
+        ]
+    },
+    {
+        "search_name": "Jens Lindemann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2251189200",
+                "display_name": "Jens Lindemann"
+            }
+        ]
+    },
+    {
+        "search_name": "Melvyn Linke",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Chit Tong Lio",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4225491674",
+                "display_name": "Chit Tong Lio"
+            },
+            {
+                "id": "https://openalex.org/A4225491114",
+                "display_name": "Chit Tong Lio"
+            }
+        ]
+    },
+    {
+        "search_name": "Shang-Ching Liu",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Chu Kiong Loo",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Zakaria Louadi",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4211483573",
+                "display_name": "Zakaria Louadi"
+            }
+        ]
+    },
+    {
+        "search_name": "Wenhao Lu",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Thomas Ludwig",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4278704044",
+                "display_name": "Thomas Ludwig"
+            }
+        ]
+    },
+    {
+        "search_name": "Clara Marie Lüders",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2755877643",
+                "display_name": "Clara Marie Lüders"
+            }
+        ]
+    },
+    {
+        "search_name": "Antje Lünstedt",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Jianzhi Lyu",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3003363378",
+                "display_name": "Jianzhi Lyu"
+            },
+            {
+                "id": "https://openalex.org/A4202227190",
+                "display_name": "Jianzhi Lyu"
+            },
+            {
+                "id": "https://openalex.org/A4281342411",
+                "display_name": "Jianzhi Lyu"
+            }
+        ]
+    },
+    {
+        "search_name": "Walid Maalej",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1079826502",
+                "display_name": "Walid Maalej"
+            },
+            {
+                "id": "https://openalex.org/A3186294417",
+                "display_name": "Walid Maalej"
+            },
+            {
+                "id": "https://openalex.org/A4225689183",
+                "display_name": "Walid Maalej"
+            }
+        ]
+    },
+    {
+        "search_name": "Andreas Mäder",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Sven Magg",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A71356258",
+                "display_name": "Sven Magg"
+            }
+        ]
+    },
+    {
+        "search_name": "Karen Manalastas-Cantos",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Georgiana Mania",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3016401200",
+                "display_name": "Georgiana Mania"
+            }
+        ]
+    },
+    {
+        "search_name": "Natalia Mannov",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2223214367",
+                "display_name": "Natalia Mannov"
+            }
+        ]
+    },
+    {
+        "search_name": "Nathalie Martin",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Matthias Marx",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2799198181",
+                "display_name": "Matthias Marx"
+            }
+        ]
+    },
+    {
+        "search_name": "Celeste Mason",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4224581462",
+                "display_name": "Celeste Mason"
+            },
+            {
+                "id": "https://openalex.org/A3163582718",
+                "display_name": "Celeste Mason"
+            },
+            {
+                "id": "https://openalex.org/A4225134233",
+                "display_name": "Celeste Mason"
+            }
+        ]
+    },
+    {
+        "search_name": "Julian Matschinske",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3020264586",
+                "display_name": "Julian Matschinske"
+            },
+            {
+                "id": "https://openalex.org/A4209777216",
+                "display_name": "Julian Matschinske"
+            }
+        ]
+    },
+    {
+        "search_name": "Lucas Memmert",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4211306740",
+                "display_name": "Lucas Memmert"
+            }
+        ]
+    },
+    {
+        "search_name": "Wolfgang Menzel",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2035911995",
+                "display_name": "Wolfgang Menzel"
+            },
+            {
+                "id": "https://openalex.org/A4268091650",
+                "display_name": "Wolfgang Menzel"
+            }
+        ]
+    },
+    {
+        "search_name": "Christian Meyenburg",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Marcel Meyer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Benjamin Milde",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Kameswar Rao Modali",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3041546657",
+                "display_name": "Kameswar Rao Modali"
+            }
+        ]
+    },
+    {
+        "search_name": "Kameswar Rao Modali",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3041546657",
+                "display_name": "Kameswar Rao Modali"
+            }
+        ]
+    },
+    {
+        "search_name": "Cedric Möller",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Daniel Moldt",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A24409756",
+                "display_name": "Daniel Moldt"
+            }
+        ]
+    },
+    {
+        "search_name": "Lloyd Montgomery",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2760150834",
+                "display_name": "Lloyd Montgomery"
+            }
+        ]
+    },
+    {
+        "search_name": "Annette Morawski",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Fariba Mostajeran Gourtani",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "David Mosteller",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2168903320",
+                "display_name": "David Mosteller"
+            }
+        ]
+    },
+    {
+        "search_name": "Tobias Müller",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2922231775",
+                "display_name": "Tobias Müller"
+            }
+        ]
+    },
+    {
+        "search_name": "Max Neuendorf",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Ph.D. Bernd Neumann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Wiebke Noeske",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Volker Nötzold",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Markus Nüttgens",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A96833993",
+                "display_name": "Markus Nüttgens"
+            }
+        ]
+    },
+    {
+        "search_name": "Margrit Obernesser",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Horst Oberquelle",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2250304179",
+                "display_name": "Horst Oberquelle"
+            }
+        ]
+    },
+    {
+        "search_name": "Ozan Özdemir",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2991177997",
+                "display_name": "Ozan Özdemir"
+            }
+        ]
+    },
+    {
+        "search_name": "Stephan Olbrich",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2079993062",
+                "display_name": "Stephan Olbrich"
+            }
+        ]
+    },
+    {
+        "search_name": "Gabriel Orsini",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2169695744",
+                "display_name": "Gabriel Orsini"
+            }
+        ]
+    },
+    {
+        "search_name": "Thomas Otto",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2611780665",
+                "display_name": "Thomas Otto"
+            }
+        ]
+    },
+    {
+        "search_name": "Mhaned Oubounyt",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2897949224",
+                "display_name": "Mhaned Oubounyt"
+            }
+        ]
+    },
+    {
+        "search_name": "Bernd Page",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2219800818",
+                "display_name": "Bernd Page"
+            },
+            {
+                "id": "https://openalex.org/A2603600270",
+                "display_name": "Bernd Page"
+            }
+        ]
+    },
+    {
+        "search_name": "Fabian Panse",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1249091238",
+                "display_name": "Fabian Panse"
+            }
+        ]
+    },
+    {
+        "search_name": "Janis-Marie Paul",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Tal Peer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Theresa Pekarek-Rosin",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2989568058",
+                "display_name": "Theresa Pekarek-Rosin"
+            }
+        ]
+    },
+    {
+        "search_name": "Patrick Penner",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2981448091",
+                "display_name": "Patrick Penner"
+            }
+        ]
+    },
+    {
+        "search_name": "Annika Peters",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3096414870",
+                "display_name": "Annika Peters"
+            }
+        ]
+    },
+    {
+        "search_name": "Silke Peters",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Tom Petersen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4221549214",
+                "display_name": "Tom Petersen"
+            },
+            {
+                "id": "https://openalex.org/A4221756567",
+                "display_name": "Tom Petersen"
+            }
+        ]
+    },
+    {
+        "search_name": "Fynn Petersen-Frey",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Yen Pham",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2794972965",
+                "display_name": "Yen Dieu Pham"
+            }
+        ]
+    },
+    {
+        "search_name": "Jonathan Pletzer-Zelgert",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Dimitri Popov",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2278732150",
+                "display_name": "Dimitri Popov"
+            }
+        ]
+    },
+    {
+        "search_name": "Martin Poppinga",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3139374673",
+                "display_name": "Martin Poppinga"
+            }
+        ]
+    },
+    {
+        "search_name": "Wolf Dietmar Posdorfer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Mathis Poser",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Tim Puhlfürß",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Leyuan Qu",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2895502203",
+                "display_name": "Leyuan Qu"
+            }
+        ]
+    },
+    {
+        "search_name": "Jun-Patrick Raabe",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Paula Rachow",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2946440823",
+                "display_name": "Paula Rachow"
+            }
+        ]
+    },
+    {
+        "search_name": "Matthias Rarey",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2059098536",
+                "display_name": "Matthias Rarey"
+            }
+        ]
+    },
+    {
+        "search_name": "Malin Rau",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Marc Rautenhaus",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3178759054",
+                "display_name": "Marc Rautenhaus"
+            }
+        ]
+    },
+    {
+        "search_name": "Bernd Rehling",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Steffen Remus",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2292917444",
+                "display_name": "Steffen Remus"
+            },
+            {
+                "id": "https://openalex.org/A4229236064",
+                "display_name": "Steffen Remus"
+            }
+        ]
+    },
+    {
+        "search_name": "Anja Richter",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Julius Richter",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3095593842",
+                "display_name": "Julius Richter"
+            }
+        ]
+    },
+    {
+        "search_name": "Matthias Riebisch",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2118533454",
+                "display_name": "Matthias Riebisch"
+            }
+        ]
+    },
+    {
+        "search_name": "Stephanie von Riegen",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2397036506",
+                "display_name": "Stephanie von Riegen"
+            }
+        ]
+    },
+    {
+        "search_name": "Sebastian Reiner Rings",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Norbert Ritter",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2145807834",
+                "display_name": "Norbert Ritter"
+            },
+            {
+                "id": "https://openalex.org/A4209786734",
+                "display_name": "Norbert Ritter"
+            }
+        ]
+    },
+    {
+        "search_name": "Kevin Röbert",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Jan Henrik Röwekamp",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2885585029",
+                "display_name": "Jan Henrik Röwekamp"
+            }
+        ]
+    },
+    {
+        "search_name": "Arno Rolf",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2098356666",
+                "display_name": "Arno Rolf"
+            },
+            {
+                "id": "https://openalex.org/A4209887172",
+                "display_name": "Arno Rolf"
+            }
+        ]
+    },
+    {
+        "search_name": "Tim Rolff",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Catharina Rudschies",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3168995729",
+                "display_name": "Catharina Rudschies"
+            }
+        ]
+    },
+    {
+        "search_name": "Philipp Ruppel",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2891260990",
+                "display_name": "Philipp Ruppel"
+            },
+            {
+                "id": "https://openalex.org/A4227986099",
+                "display_name": "Philipp Ruppel"
+            },
+            {
+                "id": "https://openalex.org/A4202555965",
+                "display_name": "Philipp Ruppel"
+            }
+        ]
+    },
+    {
+        "search_name": "Noha Sarhan",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3089435567",
+                "display_name": "Noha Sarhan"
+            },
+            {
+                "id": "https://openalex.org/A4211629566",
+                "display_name": "Noha Sarhan"
+            }
+        ]
+    },
+    {
+        "search_name": "Dagmar Schacht",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Tim Scharfenberg",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Andreas Schiek",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Ingrid Schirmer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2070404231",
+                "display_name": "Ingrid Schirmer"
+            }
+        ]
+    },
+    {
+        "search_name": "Mareike Schmidt",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3202242850",
+                "display_name": "Mareike Schmidt"
+            }
+        ]
+    },
+    {
+        "search_name": "Robert Schmidt",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2581418533",
+                "display_name": "Robert Schmidt"
+            }
+        ]
+    },
+    {
+        "search_name": "Dennis Schmitz",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2395302706",
+                "display_name": "Dennis Schmitz"
+            }
+        ]
+    },
+    {
+        "search_name": "Florian Schneider",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3112111696",
+                "display_name": "Florian Schneider"
+            }
+        ]
+    },
+    {
+        "search_name": "Ingrid Schneider",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2130024847",
+                "display_name": "Ingrid Schneider"
+            }
+        ]
+    },
+    {
+        "search_name": "Katrin Schöning-Stierand",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2990587335",
+                "display_name": "Katrin Schöning-Stierand"
+            }
+        ]
+    },
+    {
+        "search_name": "Bernd Schütz",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2192227746",
+                "display_name": "Bernd Schütz"
+            }
+        ]
+    },
+    {
+        "search_name": "Stephanie Schulte Hemming",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Angela Schwabl-Möhlmann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "August See",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3197821001",
+                "display_name": "August See"
+            }
+        ]
+    },
+    {
+        "search_name": "Martin Semmann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1390284113",
+                "display_name": "Martin Semmann"
+            },
+            {
+                "id": "https://openalex.org/A4202121970",
+                "display_name": "Martin Semmann"
+            }
+        ]
+    },
+    {
+        "search_name": "Nurefsan Sertbas Bülbül",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Özge Sevgili Ergüven",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Sehrish Shafeeq",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3200009835",
+                "display_name": "Sehrish Shafeeq"
+            }
+        ]
+    },
+    {
+        "search_name": "Jochen Sieg",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2886221467",
+                "display_name": "Jochen Sieg"
+            }
+        ]
+    },
+    {
+        "search_name": "Judith Simon",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2121696825",
+                "display_name": "Judith Simon"
+            },
+            {
+                "id": "https://openalex.org/A3186070203",
+                "display_name": "Simon, Judith, Rieder, Gernot"
+            },
+            {
+                "id": "https://openalex.org/A4221568396",
+                "display_name": "Simon, Judith"
+            }
+        ]
+    },
+    {
+        "search_name": "Britta Skulima",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Kai Sommer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2582404685",
+                "display_name": "Kai Sommer"
+            }
+        ]
+    },
+    {
+        "search_name": "Julian Späth",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3017407671",
+                "display_name": "Julian Späth"
+            },
+            {
+                "id": "https://openalex.org/A4209777217",
+                "display_name": "Julian Späth"
+            }
+        ]
+    },
+    {
+        "search_name": "Jannek Squar",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3017300839",
+                "display_name": "Jannek Squar"
+            }
+        ]
+    },
+    {
+        "search_name": "Christoph Stanik",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2526028577",
+                "display_name": "Christoph Stanik"
+            }
+        ]
+    },
+    {
+        "search_name": "Frank Steinicke",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A1907387910",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4224340238",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4224425039",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4224581463",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4225089904",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4213807377",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4224532804",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4224357729",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4224484435",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4224635853",
+                "display_name": "Frank Steinicke"
+            },
+            {
+                "id": "https://openalex.org/A4225134234",
+                "display_name": "Frank Steinicke"
+            }
+        ]
+    },
+    {
+        "search_name": "Siegfried Stiehl",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A673423508",
+                "display_name": "H. Siegfried Stiehl"
+            },
+            {
+                "id": "https://openalex.org/A2687473648",
+                "display_name": "Hans-Siegfried Stiehl"
+            },
+            {
+                "id": "https://openalex.org/A4213848770",
+                "display_name": "H. Siegfried Stiehl"
+            }
+        ]
+    },
+    {
+        "search_name": "Joshua Stock",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4221549213",
+                "display_name": "Joshua Stock"
+            },
+            {
+                "id": "https://openalex.org/A4221756566",
+                "display_name": "Joshua Stock"
+            }
+        ]
+    },
+    {
+        "search_name": "Erik Strahl",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2064436747",
+                "display_name": "Erik Strahl"
+            }
+        ]
+    },
+    {
+        "search_name": "Xiaowen Sun",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Alexander Sutherland",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2789949359",
+                "display_name": "Alexander Sutherland"
+            }
+        ]
+    },
+    {
+        "search_name": "Haisen Ta",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Eylem Tas",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Navid Tavanapour",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2597930989",
+                "display_name": "Navid Tavanapour"
+            }
+        ]
+    },
+    {
+        "search_name": "Kristina Tesch",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2973141110",
+                "display_name": "Kristina Tesch"
+            }
+        ]
+    },
+    {
+        "search_name": "Jöran Tesse",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2310380767",
+                "display_name": "Jöran Tesse"
+            }
+        ]
+    },
+    {
+        "search_name": "Tatjana Tetsis",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Daniel Thewes",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Suzanne Tolmeijer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Olga Tsoy",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Yuyang Tu",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Chikaodi Gloria Uba",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Ricardo Usbeck",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4222267058",
+                "display_name": "Ricardo Usbeck"
+            }
+        ]
+    },
+    {
+        "search_name": "Rüdiger Valk",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2434010869",
+                "display_name": "Rüdiger Valk"
+            }
+        ]
+    },
+    {
+        "search_name": "André van Hoorn",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4226810346",
+                "display_name": "van Hoorn, André"
+            },
+            {
+                "id": "https://openalex.org/A4280725602",
+                "display_name": "André van Hoorn"
+            }
+        ]
+    },
+    {
+        "search_name": "Carina Volkmer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Stefan Voß",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A4258215142",
+                "display_name": "Stefan Voß"
+            },
+            {
+                "id": "https://openalex.org/A4277267343",
+                "display_name": "Stefan Voß"
+            },
+            {
+                "id": "https://openalex.org/A2997568037",
+                "display_name": "Stefan Voß"
+            },
+            {
+                "id": "https://openalex.org/A4209133436",
+                "display_name": "Stefan Voß"
+            },
+            {
+                "id": "https://openalex.org/A4225844656",
+                "display_name": "Stefan Voß"
+            },
+            {
+                "id": "https://openalex.org/A4227902847",
+                "display_name": "Stefan Voß"
+            },
+            {
+                "id": "https://openalex.org/A4227384733",
+                "display_name": "Stefan Voß"
+            },
+            {
+                "id": "https://openalex.org/A4227665191",
+                "display_name": "Stefan Voß"
+            },
+            {
+                "id": "https://openalex.org/A4282649372",
+                "display_name": "Stefan Voß"
+            }
+        ]
+    },
+    {
+        "search_name": "Jingwen Wang",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Xintong Wang",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Florens Wasserfall",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2058972061",
+                "display_name": "Florens Wasserfall"
+            }
+        ]
+    },
+    {
+        "search_name": "Cornelius Weber",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2120270348",
+                "display_name": "Cornelius Weber"
+            },
+            {
+                "id": "https://openalex.org/A4274896524",
+                "display_name": "Cornelius Weber"
+            }
+        ]
+    },
+    {
+        "search_name": "Tom Weber",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Juliane Wegner",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Simon Welker",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Felix Welter",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Stefan Wermter",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2308014113",
+                "display_name": "Stefan Wermter"
+            },
+            {
+                "id": "https://openalex.org/A4209682909",
+                "display_name": "Stefan Wermter"
+            },
+            {
+                "id": "https://openalex.org/A4274896526",
+                "display_name": "Stefan Wermter"
+            }
+        ]
+    },
+    {
+        "search_name": "Jens Wettlaufer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3012460222",
+                "display_name": "Jens Wettlaufer"
+            }
+        ]
+    },
+    {
+        "search_name": "Pascal Wichmann",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2753823423",
+                "display_name": "Pascal Wichmann"
+            }
+        ]
+    },
+    {
+        "search_name": "Marion Wiese",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3137048804",
+                "display_name": "Marion Wiese"
+            }
+        ]
+    },
+    {
+        "search_name": "Christina Wiethof",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Florian Wilkens",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2946467336",
+                "display_name": "Florian Wilkens"
+            }
+        ]
+    },
+    {
+        "search_name": "Christian Wilms",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2645717723",
+                "display_name": "Christian Wilms"
+            }
+        ]
+    },
+    {
+        "search_name": "Tatjana Wingarz",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Bernd E. Wolfinger",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A222172891",
+                "display_name": "Bernd E. Wolfinger"
+            }
+        ]
+    },
+    {
+        "search_name": "Benjamin Wollmer",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3030027900",
+                "display_name": "Benjamin Wollmer"
+            }
+        ]
+    },
+    {
+        "search_name": "Ehsan Yaghoubi",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Xi Yan",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Seid Muhie Yimam",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A229677065",
+                "display_name": "Seid Muhie Yimam"
+            },
+            {
+                "id": "https://openalex.org/A3207900196",
+                "display_name": "Seid Muhie Yimam"
+            },
+            {
+                "id": "https://openalex.org/A4209017371",
+                "display_name": "Seid Muhie Yimam"
+            },
+            {
+                "id": "https://openalex.org/A4220285584",
+                "display_name": "Seid Muhie Yimam"
+            }
+        ]
+    },
+    {
+        "search_name": "Mohammad Ali Zamani",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A3042955970",
+                "display_name": "Mohammad Ali Zamani"
+            }
+        ]
+    },
+    {
+        "search_name": "Jianwei Zhang",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2129169043",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2432476800",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2974452989",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2888569076",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2970334370",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A3003964543",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A3210400474",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A3130290846",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2618632610",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A3186197201",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2489718205",
+                "display_name": "Zhang Jianwei"
+            },
+            {
+                "id": "https://openalex.org/A4227264383",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A3097851578",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2765668191",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2977331706",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4202227189",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4202339143",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4202555966",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4207672031",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4209147653",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A3044329692",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2652412968",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4227782458",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A2964711923",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A3178552098",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4207832815",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4226135037",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4227986101",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4226760051",
+                "display_name": "Jianwei Zhang"
+            },
+            {
+                "id": "https://openalex.org/A4281342415",
+                "display_name": "Jianwei Zhang"
+            }
+        ]
+    },
+    {
+        "search_name": "Jingxin Zhang",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": [
+            {
+                "id": "https://openalex.org/A2764088283",
+                "display_name": "Jingxin Zhang"
+            }
+        ]
+    },
+    {
+        "search_name": "Xufeng Zhao",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Reinhard Zierke",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    },
+    {
+        "search_name": "Aleksandar Zivkovic",
+        "institution_id": "https://openalex.org/I159176309",
+        "results": []
+    }
+]
