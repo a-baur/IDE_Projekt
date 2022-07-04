@@ -15,6 +15,8 @@ def oa_request(entity, filters, per_page=100, pages=None):
     page = 1
     while True:
         resp = requests.get(f"https://api.openalex.org/{entity}", params=params).json()
+        if "meta" not in resp:
+            raise Exception(resp)
         if "next_cursor" not in resp["meta"]:
             break
         if pages and page > pages:

@@ -15,7 +15,7 @@ class OpenalexGraph(Graph):
         self.OA = Namespace("https://openalex.org/")
         self.bind("oa", self.OA)
     
-    def add_instituion(self, identifier, name, country, city, latitude, longitude):
+    def add_institution(self, identifier, name, country, city, latitude, longitude):
         inst = self.OA.term(identifier)
         loc = BNode()
         addr = BNode()
@@ -28,7 +28,8 @@ class OpenalexGraph(Graph):
         self.add((loc, SDO.latitude, Literal(latitude)))
         self.add((loc, SDO.longitude, Literal(longitude)))
         self.add((loc, SDO.address, addr))
-    
+
+        self.add((addr, RDF.type, SDO.PostalAddress))
         self.add((addr, SDO.addressCountry, Literal(country)))
         self.add((addr, SDO.addressLocality, Literal(city)))
     
@@ -56,11 +57,21 @@ class OpenalexGraph(Graph):
 
         self.add((author, SDO.author, work))
 
-    def add_venue(self, identifier, name):
+    def add_venue(self, identifier, name, country, city, latitude, longitude):
         publisher = self.OA.term(identifier)
+        loc = BNode()
+        addr = BNode()
 
         self.add((publisher, RDF.type, SDO.Organization))
         self.add((publisher, SDO.name, Literal(name)))
+        self.add((publisher, SDO.location, loc))
 
+        self.add((loc, RDF.type, SDO.Place))
+        self.add((loc, SDO.latitude, Literal(latitude)))
+        self.add((loc, SDO.longitude, Literal(longitude)))
+        self.add((loc, SDO.address, addr))
 
-# def add_paper()
+        self.add((addr, RDF.type, SDO.PostalAddress))
+        self.add((addr, SDO.addressCountry, Literal(country)))
+        self.add((addr, SDO.addressLocality, Literal(city)))
+
