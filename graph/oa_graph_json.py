@@ -42,29 +42,47 @@ class OpenalexJsonGraph(OpenalexGraph):
             )
             for w in works:
                 self.add_work(w, add_authors=True)
-                self.add_authorship(data, w)
+                self.add_is_author(data, w)
 
-    # def add_coauthor
-
-    def add_authorship(self, a_data: dict, w_data: dict):
+    def add_is_author(self, a_data: dict, w_data: dict):
         params = {
             "author_id": _resource_from_uri(a_data["id"]),
             "work_id":  _resource_from_uri(w_data["id"]),
         }
         # self.logger.info(f"adding authorship: {params['author_id']} - {params['work_id']}")
-        super().add_authorship(**params)
+        super().add_is_author(**params)
 
-    def add_institution(self, data: dict):
+    def add_located_at(self, data):
         params = {
             "identifier": _resource_from_uri(data["id"]),
-            "name": data["display_name"],
             "country": data["geo"]["country"],
             "city": data["geo"]["city"],
             "latitude": data["geo"]["latitude"],
             "longitude": data["geo"]["longitude"],
         }
-        self.logger.info(f"adding institution: {params['identifier']}")
-        super().add_institution(**params)
+        super().add_located_at(**params)
+
+    def add_institution(self, data: dict, add_location=True):
+        inst_params = {
+            "identifier": _resource_from_uri(data["id"]),
+            "name": data["display_name"],
+        }
+        super().add_institution(**inst_params)
+
+        if add_location:
+            self.add_located_at(data)
+        self.logger.info(f"adding institution: {inst_params['identifier']}")
+
+    def add_venue(self, data: dict, add_location=True):
+        inst_params = {
+            "identifier": _resource_from_uri(data["id"]),
+            "name": data["display_name"],
+        }
+        super().add_venue(**inst_params)
+
+        if add_location:
+            self.add_located_at(data)
+        self.logger.info(f"added venue: {inst_params['identifier']}")
 
     def add_work(self, data: dict, add_authors):
         params = {
@@ -86,7 +104,7 @@ class OpenalexJsonGraph(OpenalexGraph):
                     per_page=10
                 )[0]
                 self.add_author(author, add_works=False)
-                self.add_authorship(data, author)
+                self.add_is_author(data, author)
                 if i > 10:
                     break
 

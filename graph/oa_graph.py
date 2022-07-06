@@ -1,6 +1,6 @@
 from datetime import date
 from rdflib import Graph, Literal, BNode
-
+import rdflib.plugins.sparql.processor
 from rdflib.namespace import (
     SDO,  # schema.org
     RDF,
@@ -13,25 +13,17 @@ class OpenalexGraph(Graph):
     def __init__(self):
         super().__init__()
         self.OA = Namespace("https://openalex.org/")
+        self.DBO = Namespace("https://dbpedia.org/resource/")
+        self.GEO = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos#")
         self.bind("oa", self.OA)
-    
-    def add_institution(self, identifier, name, country, city, latitude, longitude):
+        self.bind("dbo", self.DBO)
+        self.bind("geo", self.GEO)
+
+    def add_institution(self, identifier, name):
         inst = self.OA.term(identifier)
-        loc = BNode()
-        addr = BNode()
     
         self.add((inst, RDF.type, SDO.Organization))
         self.add((inst, SDO.name, Literal(name)))
-        self.add((inst, SDO.location, loc))
-    
-        self.add((loc, RDF.type, SDO.Place))
-        self.add((loc, SDO.latitude, Literal(latitude)))
-        self.add((loc, SDO.longitude, Literal(longitude)))
-        self.add((loc, SDO.address, addr))
-
-        self.add((addr, RDF.type, SDO.PostalAddress))
-        self.add((addr, SDO.addressCountry, Literal(country)))
-        self.add((addr, SDO.addressLocality, Literal(city)))
     
     def add_author(self, identifier, name, institution):
         author = self.OA.term(identifier)
@@ -51,27 +43,34 @@ class OpenalexGraph(Graph):
         self.add((work, SDO.publisher, publisher))
         self.add((work, SDO.datePublished, Literal(date_published)))
 
-    def add_authorship(self, author_id, work_id):
+    def add_venue(self, identifier, name):
+        publisher = self.OA.term(identifier)
+
+        self.add((publisher, RDF.type, SDO.Organization))
+        self.add((publisher, SDO.name, Literal(name)))
+
+    def add_is_author(self, author_id, work_id):
         author = self.OA.term(author_id)
         work = self.OA.term(work_id)
 
         self.add((author, SDO.author, work))
 
-    def add_venue(self, identifier, name, country, city, latitude, longitude):
-        publisher = self.OA.term(identifier)
+    def add_located_at(self, identifier, country, city, latitude=None, longitude=None):
+        org = self.OA.term(identifier)
         loc = BNode()
         addr = BNode()
 
-        self.add((publisher, RDF.type, SDO.Organization))
-        self.add((publisher, SDO.name, Literal(name)))
-        self.add((publisher, SDO.location, loc))
-
         self.add((loc, RDF.type, SDO.Place))
-        self.add((loc, SDO.latitude, Literal(latitude)))
-        self.add((loc, SDO.longitude, Literal(longitude)))
         self.add((loc, SDO.address, addr))
 
         self.add((addr, RDF.type, SDO.PostalAddress))
-        self.add((addr, SDO.addressCountry, Literal(country)))
-        self.add((addr, SDO.addressLocality, Literal(city)))
 
+        if latitude and longitude:
+            self.add((addr, SDO.latitude, Literal(latitude)))
+            self.add((addr, SDO.longitude, Literal(longitude)))
+            self.add((addr, self.GEO.geometry, Literal(f"POINT({latitude},{longitude})")))
+
+        self.add((addr, self.DBO.country, self.DBO.term(country)))
+        self.add((addr, self.DBO.city, self.DBO.term(city)))
+
+        self.add((org, SDO.location, loc))
