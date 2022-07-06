@@ -1,12 +1,14 @@
 import logging
+import random
 
-from openalex import oa_request
+from graph.oa_request import oa_request
 from oa_graph import OpenAlexGraph
 
 
 def _resource_from_uri(uri):
     if not uri:
-        return ""
+        # if uri is missing, create random one
+        return f"_{random.randint(0, 99999999):08}"
     return uri.split("/")[-1]
 
 

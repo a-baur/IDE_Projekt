@@ -17,12 +17,14 @@ class OpenAlexGraph(Graph):
         super().__init__()
         self.OA = Namespace("https://openalex.org/")
         self.DBO = Namespace("https://dbpedia.org/resource/")
+        self.DBP = Namespace("https://dbpedia.org/property/")
         self.GEO = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos#")
         self.bind("oa", self.OA)
         self.bind("dbo", self.DBO)
+        self.bind("dbp", self.DBP)
         self.bind("geo", self.GEO)
 
-    def add_institution(self, identifier, name):
+    def add_institution(self, identifier: str, name: str) -> None:
         """
         Add institution to graph.
 
@@ -31,11 +33,11 @@ class OpenAlexGraph(Graph):
         :return: None
         """
         inst = self.OA.term(identifier)
-    
+
         self.add((inst, RDF.type, SDO.Organization))
         self.add((inst, SDO.name, Literal(name)))
-    
-    def add_author(self, identifier, name, institution):
+
+    def add_author(self, identifier: str, name: str, institution: str) -> None:
         """
         Add author to graph.
 
@@ -51,7 +53,7 @@ class OpenAlexGraph(Graph):
         self.add((author, SDO.name, Literal(name)))
         self.add((author, SDO.member, inst))
 
-    def add_work(self, identifier, name, publisher, publish_date, citations):
+    def add_work(self, identifier: str, name: str, publisher: str, publish_date: str) -> None:
         """
         Add work to graph.
 
@@ -63,7 +65,8 @@ class OpenAlexGraph(Graph):
         :return: None
         """
         work = self.OA.term(identifier)
-        publisher = self.OA.term(publisher)
+        if publisher:
+            publisher = self.OA.term(publisher)
         date_published = date.fromisoformat(publish_date)
 
         self.add((work, RDF.type, SDO.Article))
@@ -71,7 +74,7 @@ class OpenAlexGraph(Graph):
         self.add((work, SDO.publisher, publisher))
         self.add((work, SDO.datePublished, Literal(date_published)))
 
-    def add_venue(self, identifier, name):
+    def add_venue(self, identifier: str, name: str) -> None:
         """
         Add venue to graph.
 
@@ -84,7 +87,36 @@ class OpenAlexGraph(Graph):
         self.add((publisher, RDF.type, SDO.Organization))
         self.add((publisher, SDO.name, Literal(name)))
 
-    def add_is_author(self, author_id, work_id):
+    def add_associated_with_institution(self, work_id: str, inst_id) -> None:
+        """
+        Add institution to work.
+
+        :param work_id: OpenAlex ID of work.
+        :param inst_id: OpenAlex ID of institution.
+        :return: None
+        """
+        work = self.OA.term(work_id)
+        inst = self.OA.term(inst_id)
+
+        self.add((work, self.DBP.institutions, inst))
+
+    def add_citations_in_year(self, identifier: str, citations: str|int, year: str|int) -> None:
+        """
+        Add blank node with reference to number of citations and the year.
+
+        :param identifier: OpenAlex ID of work.
+        :param citations: Number of citations
+        :param year: Year with number of citations
+        :return: None
+        """
+        work = self.OA.term(identifier)
+        cite = BNode()
+
+        self.add((work, self.DBP.citation, cite))
+        self.add((cite, self.DBP.amount, Literal(citations)))
+        self.add((cite, self.DBP.year, Literal(year)))
+
+    def add_is_author(self, author_id: str, work_id: str) -> None:
         """
         Add authorship relation between author and work.
 
@@ -97,15 +129,22 @@ class OpenAlexGraph(Graph):
 
         self.add((author, SDO.author, work))
 
-    def add_located_at(self, identifier, country, city, latitude=None, longitude=None):
+    def add_located_at(
+            self,
+            identifier: str,
+            country: str,
+            city: str,
+            latitude: str = None,
+            longitude: str = None
+    ) -> None:
         """
         Add location relation between organisation and address.
 
         :param identifier: OpenAlex ID of organisation.
         :param country: Country of org
         :param city: City of org
-        :param latitude: Latitude of org
-        :param longitude: Longitude of org
+        :param latitude: Latitude of org, optional.
+        :param longitude: Longitude of org, optional.
         :return: None
         """
         org = self.OA.term(identifier)
