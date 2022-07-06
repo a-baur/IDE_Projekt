@@ -98,7 +98,7 @@ class OpenAlexGraph(Graph):
         work = self.OA.term(work_id)
         inst = self.OA.term(inst_id)
 
-        self.add((work, self.DBP.institutions, inst))
+        self.add((work, self.DBP.institution, inst))
 
     def add_citations_in_year(self, identifier: str, citations: str|int, year: str|int) -> None:
         """
