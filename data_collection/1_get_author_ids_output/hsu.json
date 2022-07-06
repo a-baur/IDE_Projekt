@@ -1,0 +1,77 @@
+[
+    {
+        "search_name": "Bernd Klauer",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": [
+            {
+                "id": "https://openalex.org/A2280137809",
+                "display_name": "Bernd Klauer"
+            }
+        ]
+    },
+    {
+        "search_name": "Hans-Christoph Zeidler",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": [
+            {
+                "id": "https://openalex.org/A2789662888",
+                "display_name": "Hans Christoph Zeidler"
+            }
+        ]
+    },
+    {
+        "search_name": "Corina Flegel",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": []
+    },
+    {
+        "search_name": "Marcel Eckert",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": [
+            {
+                "id": "https://openalex.org/A2137331803",
+                "display_name": "Marcel Eckert"
+            }
+        ]
+    },
+    {
+        "search_name": "Dominik Meyer",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": [
+            {
+                "id": "https://openalex.org/A2282858307",
+                "display_name": "Dominik Meyer"
+            }
+        ]
+    },
+    {
+        "search_name": "Alexander Klemd",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": [
+            {
+                "id": "https://openalex.org/A2956361580",
+                "display_name": "Alexander Klemd"
+            }
+        ]
+    },
+    {
+        "search_name": "Christina Sander",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": []
+    },
+    {
+        "search_name": "Uwe Daube",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": []
+    },
+    {
+        "search_name": "Dennis Fliemann",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": []
+    },
+    {
+        "search_name": "Detlef Thomsen",
+        "institution_id": "https://openalex.org/I190134885",
+        "results": []
+    }
+]
