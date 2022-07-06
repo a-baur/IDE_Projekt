@@ -3,7 +3,7 @@ import logging
 from rdflib import Graph
 
 from openalex import oa_request
-from oa_graph_json import OpenalexJsonGraph
+from oa_graph_json import OpenAlexJsonGraph
 
 
 def test_add_author():
@@ -11,7 +11,7 @@ def test_add_author():
 
     authors = oa_request("authors", filters={"last_known_institution.id": "I159176309"}, pages=1, per_page=10)
 
-    g = OpenalexJsonGraph(authors_from_work=True, works_from_author=True)
+    g = OpenAlexJsonGraph(authors_from_work=True, works_from_author=True)
 
     for a in authors:
         g.add_author(a)

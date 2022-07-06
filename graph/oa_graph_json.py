@@ -1,7 +1,7 @@
 import logging
 
 from openalex import oa_request
-from oa_graph import OpenalexGraph
+from oa_graph import OpenAlexGraph
 
 
 def _resource_from_uri(uri):
@@ -10,7 +10,15 @@ def _resource_from_uri(uri):
     return uri.split("/")[-1]
 
 
-class OpenalexJsonGraph(OpenalexGraph):
+class OpenAlexJsonGraph(OpenAlexGraph):
+    """
+    OpenAlex Graph that can parse OpenAlex responses.
+
+    :param works_from_author: If True, adds associated works of an
+        author when adding the author.
+    :param authors_from_work: If True, adds associated authors of a
+        work when adding the work.
+    """
 
     def __init__(self, works_from_author=False, authors_from_work=False):
         super().__init__()
@@ -18,7 +26,14 @@ class OpenalexJsonGraph(OpenalexGraph):
         self.works_from_author = works_from_author
         self.authors_from_work = authors_from_work
 
-    def add_author(self, data: dict, add_works=True):
+    def add_author(self, data: dict, add_works=True) -> None:
+        """
+        Add author to graph.
+
+        :param data: OpenAlex API response json for authors.
+        :param add_works: If True, add works associated with author.
+        :return: None
+        """
         params = {
             "identifier": _resource_from_uri(data["id"]),
             "name": data["display_name"],
@@ -44,25 +59,14 @@ class OpenalexJsonGraph(OpenalexGraph):
                 self.add_work(w, add_authors=True)
                 self.add_is_author(data, w)
 
-    def add_is_author(self, a_data: dict, w_data: dict):
-        params = {
-            "author_id": _resource_from_uri(a_data["id"]),
-            "work_id":  _resource_from_uri(w_data["id"]),
-        }
-        # self.logger.info(f"adding authorship: {params['author_id']} - {params['work_id']}")
-        super().add_is_author(**params)
+    def add_institution(self, data: dict, add_location=True) -> None:
+        """
+        Add institution to graph.
 
-    def add_located_at(self, data):
-        params = {
-            "identifier": _resource_from_uri(data["id"]),
-            "country": data["geo"]["country"],
-            "city": data["geo"]["city"],
-            "latitude": data["geo"]["latitude"],
-            "longitude": data["geo"]["longitude"],
-        }
-        super().add_located_at(**params)
-
-    def add_institution(self, data: dict, add_location=True):
+        :param data: OpenAlex API response json for institutions.
+        :param add_location: If True, add location associated with institution.
+        :return: None
+        """
         inst_params = {
             "identifier": _resource_from_uri(data["id"]),
             "name": data["display_name"],
@@ -73,7 +77,14 @@ class OpenalexJsonGraph(OpenalexGraph):
             self.add_located_at(data)
         self.logger.info(f"adding institution: {inst_params['identifier']}")
 
-    def add_venue(self, data: dict, add_location=True):
+    def add_venue(self, data: dict, add_location=True) -> None:
+        """
+        Add venue to graph.
+
+        :param data: OpenAlex API response json for venues.
+        :param add_location: If True, add location associated with venue.
+        :return: None
+        """
         inst_params = {
             "identifier": _resource_from_uri(data["id"]),
             "name": data["display_name"],
@@ -84,7 +95,14 @@ class OpenalexJsonGraph(OpenalexGraph):
             self.add_located_at(data)
         self.logger.info(f"added venue: {inst_params['identifier']}")
 
-    def add_work(self, data: dict, add_authors):
+    def add_work(self, data: dict, add_authors=True) -> None:
+        """
+        Add work to graph.
+
+        :param data: OpenAlex API response json for works.
+        :param add_authors: If True, add authors associated with work.
+        :return: None
+        """
         params = {
             "identifier": _resource_from_uri(data["id"]),
             "name": data["display_name"],
@@ -107,6 +125,37 @@ class OpenalexJsonGraph(OpenalexGraph):
                 self.add_is_author(data, author)
                 if i > 10:
                     break
+
+    def add_is_author(self, a_data: dict, w_data: dict) -> None:
+        """
+        Add authorship relation between author and work.
+
+        :param a_data: OpenAlex API response json for authors.
+        :param w_data: OpenAlex API response json for works.
+        :return: None
+        """
+        params = {
+            "author_id": _resource_from_uri(a_data["id"]),
+            "work_id":  _resource_from_uri(w_data["id"]),
+        }
+        # self.logger.info(f"adding authorship: {params['author_id']} - {params['work_id']}")
+        super().add_is_author(**params)
+
+    def add_located_at(self, data: dict) -> None:
+        """
+        Add location relation between institution and address.
+
+        :param data: OpenAlex API response for institutions.
+        :return:
+        """
+        params = {
+            "identifier": _resource_from_uri(data["id"]),
+            "country": data["geo"]["country"],
+            "city": data["geo"]["city"],
+            "latitude": data["geo"]["latitude"],
+            "longitude": data["geo"]["longitude"],
+        }
+        super().add_located_at(**params)
 
 
 class ParsingError(Exception):
