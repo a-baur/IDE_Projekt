@@ -1,7 +1,7 @@
 from rdflib import Graph
 
 
-GRAPH_PATH = "out/graph.ttl"
+GRAPH_PATH = "../out/graph.ttl"
 
 
 def query(g, q):
@@ -17,6 +17,18 @@ def query(g, q):
         for label, res in row.asdict().items():
             print(f"{label} = {res}", end="\n")
         print()
+
+
+def construct(g, q, path):
+    if not g:
+        g = Graph()
+        print("parsing graph")
+        g.parse(GRAPH_PATH)
+
+    print("starting constructing")
+    c_res = g.query(q)
+    print(f"constructed graph of length {len(c_res)}.\n")
+    c_res.serialize(path)
 
 
 def members_by_university(g=None):
@@ -49,27 +61,47 @@ def work_number_by_author(g=None):
     query(g, q)
 
 
-def co_authors_by_author(g=None):
+def constr_co_author_within(path, g=None):
     q = """
-        SELECT (SAMPLE(?author) as ?AUTHOR) (GROUP_CONCAT(DISTINCT ?co_author; separator=", ") as ?CO_AUTHORS)
-        WHERE {
-            {
-                SELECT ?id_author {
-                    ?id_author a schema:Person .
-                } LIMIT 20
-            }
-            ?id_author schema:name ?author ;
-                schema:member ?inst ;
-                schema:author ?work .
-            
-            ?id_co a schema:Person ;
-                schema:member ?inst ;
-                schema:name ?co_author ;
-                schema:author ?work .
-    
-            FILTER(?id_author != ?id_co)
+        CONSTRUCT{
+            ?author_id a schema:Person ; 
+                schema:name ?author;
+                schema:colleague ?co_author_id ;
+                schema:member ?inst .
         }
-        GROUP BY ?id_author
+        WHERE {
+            ?author_id a schema:Person ;
+                schema:name ?author ;
+                schema:colleague ?co_author_id ;
+                schema:member ?inst ;
+                schema:author ?work .
+
+            ?co_author_id schema:name ?co_author ;
+                schema:member ?inst .
+
+            ?inst schema:name ?inst_name .
+        }
+        """
+    construct(g, q, path)
+
+def co_authors_within(g=None):
+    q = """
+        SELECT (SAMPLE(?author) as ?AUTHOR) (SAMPLE(?inst_name) as ?AT_INST) (GROUP_CONCAT(DISTINCT ?co_author; separator=", ") as ?CO_AUTHORS)
+        WHERE {
+            ?author_id a schema:Person ;
+                schema:name ?author ;
+                schema:colleague ?co_author_id ;
+                schema:member ?inst ;
+                schema:author ?work .
+  
+            ?co_author_id schema:name ?co_author ;
+                schema:member ?inst .
+  
+            ?inst schema:name ?inst_name .
+            
+            FILTER(?author_id != ?co_author_id)
+        }
+        GROUP BY ?author_id
     """
     query(g, q)
 
@@ -112,6 +144,6 @@ def location_by_inst(g=None):
 
 
 if __name__ == "__main__":
-    GRAPH_PATH = "out/loc_graph.ttl"
-    location_by_inst()
+    GRAPH_PATH = "out/graph.ttl"
+    constr_co_author_within(path="out/construction.ttl")
 

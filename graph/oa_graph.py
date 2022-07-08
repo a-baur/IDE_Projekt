@@ -129,6 +129,20 @@ class OpenAlexGraph(Graph):
 
         self.add((author, SDO.author, work))
 
+    def add_colleague(self,  author_id: str, co_author_id: str):
+        """
+        Add colleague/co-author relation between author and work.
+
+        :param author_id: OpenAlex ID of author.
+        :param co_author_id: OpenAlex ID of work.
+        :return: None
+        """
+        author = self.OA.term(author_id)
+        co_author = self.OA.term(co_author_id)
+
+        self.add((author, SDO.colleague, co_author))
+
+
     def add_located_at(
             self,
             identifier: str,
