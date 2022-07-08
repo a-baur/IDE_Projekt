@@ -34,7 +34,7 @@ class OpenAlexGraph(Graph):
         """
         inst = self.OA.term(identifier)
 
-        self.add((inst, RDF.type, SDO.Organization))
+        self.add((inst, RDF.type, SDO.EducationalOrganization))
         self.add((inst, SDO.name, Literal(name)))
 
     def add_author(self, identifier: str, name: str, institution: str) -> None:
@@ -84,7 +84,7 @@ class OpenAlexGraph(Graph):
         """
         publisher = self.OA.term(identifier)
 
-        self.add((publisher, RDF.type, SDO.Organization))
+        self.add((publisher, RDF.type, SDO.EventVenue))
         self.add((publisher, SDO.name, Literal(name)))
 
     def add_associated_with_institution(self, work_id: str, inst_id) -> None:

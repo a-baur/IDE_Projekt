@@ -1,8 +1,8 @@
 import logging
 import random
 
-from graph.oa_request import oa_request
-from oa_graph import OpenAlexGraph
+from .oa_request import oa_request
+from .oa_graph import OpenAlexGraph
 
 
 def _resource_from_uri(uri):
