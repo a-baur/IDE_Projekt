@@ -58,5 +58,5 @@ if __name__ == "__main__":
         if i % SAVE_AFTER_BATCH == 0:
             print(f"\nSaving for iteration {i}\n")
             g.serialize("out/loc_graph.ttl")
-    g.serialize("out/loc_graph2.ttl")
+    g.serialize("out/final_graph.ttl")
     print(f"\n\nNodes: {len(g)}")

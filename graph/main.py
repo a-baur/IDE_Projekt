@@ -194,5 +194,5 @@ def venue_dbr_coordinates(g=None):
 
 
 if __name__ == "__main__":
-    GRAPH_PATH = "../out/loc_graph2.ttl"
+    GRAPH_PATH = "../out/final_graph.ttl"
     venue_dbr_coordinates()
