@@ -84,6 +84,7 @@ def constr_co_author_within(path, g=None):
         """
     construct(g, q, path)
 
+
 def co_authors_within(g=None):
     q = """
         SELECT (SAMPLE(?author) as ?AUTHOR) (SAMPLE(?inst_name) as ?AT_INST) (GROUP_CONCAT(DISTINCT ?co_author; separator=", ") as ?CO_AUTHORS)
@@ -135,7 +136,7 @@ def location_by_inst(g=None):
             ?id_inst a schema:EducationalOrganization ;
                 schema:name ?inst_name ;
                 schema:location [
-                    dbo:city ?city
+                    dbp:city ?city
                 ]
         }
         GROUP BY ?city
@@ -143,7 +144,55 @@ def location_by_inst(g=None):
     query(g, q)
 
 
-if __name__ == "__main__":
-    GRAPH_PATH = "out/graph.ttl"
-    constr_co_author_within(path="out/construction.ttl")
+def venue_dbr_locations(g=None):
+    q = """
+        SELECT
+            (SAMPLE(?inst_name) as ?NAME)
+            (CONCAT('[', (GROUP_CONCAT(DISTINCT ?venue_city; separator=', ')), ']') as ?CITY)
+        WHERE {
+            ?id_inst a schema:EducationalOrganization ;
+                schema:name ?inst_name ;
+                schema:location [
+                    dbp:city dbr:Hamburg
+                ] .
+    
+            ?work dbp:institution ?id_inst ;
+                schema:event [
+                    schema:location [
+                        dbp:city ?venue_city
+                    ]
+                ]
+        }
+        GROUP BY ?inst_name
+    """
+    query(g, q)
 
+
+def venue_dbr_coordinates(g=None):
+    q = """
+        SELECT
+            (SAMPLE(?inst_name) as ?INST)
+            (CONCAT('[', GROUP_CONCAT(CONCAT('(', str(?lat), ', ', str(?lng), ')'); separator=', '), ']') as ?COORD)
+        WHERE {
+            ?id_inst a schema:EducationalOrganization ;
+                schema:name ?inst_name ;
+                schema:location [
+                    dbp:city dbr:Hamburg
+                ] .
+    
+            ?work dbp:institution ?id_inst ;
+                schema:event [
+                    schema:location [
+                        schema:latitude ?lat ;
+                        schema:longitude ?lng
+                    ]
+                ]
+        }
+        GROUP BY ?inst_name
+    """
+    query(g, q)
+
+
+if __name__ == "__main__":
+    GRAPH_PATH = "../out/loc_graph2.ttl"
+    venue_dbr_coordinates()

@@ -16,13 +16,15 @@ class OpenAlexGraph(Graph):
     def __init__(self):
         super().__init__()
         self.OA = Namespace("https://openalex.org/")
-        self.DBO = Namespace("https://dbpedia.org/resource/")
+        self.dbr = Namespace("https://dbpedia.org/resource/")
         self.DBP = Namespace("https://dbpedia.org/property/")
         self.GEO = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos#")
+        self.DBLP = Namespace("https://dblp.org/db/conf/")
         self.bind("oa", self.OA)
-        self.bind("dbo", self.DBO)
+        self.bind("dbr", self.dbr)
         self.bind("dbp", self.DBP)
         self.bind("geo", self.GEO)
+        self.bind("dblp", self.DBLP)
 
     def add_institution(self, identifier: str, name: str) -> None:
         """
@@ -53,39 +55,52 @@ class OpenAlexGraph(Graph):
         self.add((author, SDO.name, Literal(name)))
         self.add((author, SDO.member, inst))
 
-    def add_work(self, identifier: str, name: str, publisher: str, publish_date: str) -> None:
+    def add_work(self, identifier: str, name: str, date_published) -> None:
         """
         Add work to graph.
 
         :param identifier: OpenAlex ID
         :param name: Name of work
-        :param publisher: OpenAlex ID of publishing venue
-        :param publish_date: Date of publication
-        :param citations: Number of citations
         :return: None
         """
         work = self.OA.term(identifier)
-        if publisher:
-            publisher = self.OA.term(publisher)
-        date_published = date.fromisoformat(publish_date)
 
         self.add((work, RDF.type, SDO.Article))
         self.add((work, SDO.name, Literal(name)))
-        self.add((work, SDO.publisher, publisher))
         self.add((work, SDO.datePublished, Literal(date_published)))
 
-    def add_venue(self, identifier: str, name: str) -> None:
+    def add_venue(self, work_id, identifier: str, name: str, year: str|int, city, country, lat, lng) -> None:
         """
         Add venue to graph.
 
         :param identifier: OpenAlex ID.
         :param name: Name of venue
+        :param year: Year of event
+        :param type: Type of event
         :return: None
         """
-        publisher = self.OA.term(identifier)
+        work = self.OA.term(work_id)
+        publisher = BNode()  # self.DBLP.term(identifier)
+        addr = BNode()
 
-        self.add((publisher, RDF.type, SDO.EventVenue))
+        self.add((publisher, RDF.type, SDO.Event))
         self.add((publisher, SDO.name, Literal(name)))
+        self.add((publisher, self.DBP.year, Literal(year)))
+
+        if city and country:
+            self.add((addr, RDF.type, SDO.PostalAddress))
+            self.add((addr, self.DBP.country, self.dbr.term(country)))
+            self.add((addr, self.DBP.city, self.dbr.term(city)))
+
+        if lat and lng:
+            self.add((addr, SDO.latitude, Literal(lat)))
+            self.add((addr, SDO.longitude, Literal(lng)))
+            self.add((addr, self.GEO.geometry, Literal(f"POINT({lat},{lng})")))
+
+        if (city and country) or (lat and lng):
+            self.add((publisher, SDO.location, addr))
+
+        self.add((work, SDO.event, publisher))
 
     def add_associated_with_institution(self, work_id: str, inst_id) -> None:
         """
@@ -142,14 +157,14 @@ class OpenAlexGraph(Graph):
 
         self.add((author, SDO.colleague, co_author))
 
-
     def add_located_at(
             self,
             identifier: str,
             country: str,
             city: str,
             latitude: str = None,
-            longitude: str = None
+            longitude: str = None,
+            use_dblp = False,
     ) -> None:
         """
         Add location relation between organisation and address.
@@ -161,7 +176,10 @@ class OpenAlexGraph(Graph):
         :param longitude: Longitude of org, optional.
         :return: None
         """
-        org = self.OA.term(identifier)
+        if use_dblp:
+            org = self.DBLP.term(identifier)
+        else:
+            org = self.OA.term(identifier)
         addr = BNode()
 
         self.add((addr, RDF.type, SDO.PostalAddress))
@@ -171,7 +189,7 @@ class OpenAlexGraph(Graph):
             self.add((addr, SDO.longitude, Literal(longitude)))
             self.add((addr, self.GEO.geometry, Literal(f"POINT({latitude},{longitude})")))
 
-        self.add((addr, self.DBO.country, self.DBO.term(country)))
-        self.add((addr, self.DBO.city, self.DBO.term(city)))
+        self.add((addr, self.DBP.country, self.dbr.term(country)))
+        self.add((addr, self.DBP.city, self.dbr.term(city)))
 
         self.add((org, SDO.location, addr))

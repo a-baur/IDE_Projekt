@@ -5,11 +5,11 @@ from .oa_request import oa_request
 from .oa_graph import OpenAlexGraph
 
 
-def _resource_from_uri(uri):
+def _resource_from_uri(uri, res_loc=-1):
     if not uri:
         # if uri is missing, create random one
         return f"_{random.randint(0, 99999999):08}"
-    return uri.split("/")[-1]
+    return uri.split("/")[res_loc]
 
 
 class OpenAlexJsonGraph(OpenAlexGraph):

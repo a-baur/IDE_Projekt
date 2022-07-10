@@ -34,7 +34,7 @@ def get_institutions(g):
 
 if __name__ == "__main__":
     g = OpenAlexGraph()
-    g.parse("out/graph.ttl")
+    g.parse("out/loc_graph.ttl")
 
     print(f"\n\nNodes: {len(g)}")
     institutions = get_institutions(g)
@@ -58,5 +58,5 @@ if __name__ == "__main__":
         if i % SAVE_AFTER_BATCH == 0:
             print(f"\nSaving for iteration {i}\n")
             g.serialize("out/loc_graph.ttl")
-    g.serialize("out/loc_graph3.ttl")
+    g.serialize("out/loc_graph2.ttl")
     print(f"\n\nNodes: {len(g)}")
