@@ -1,11 +1,18 @@
-from datetime import date
+import random
+
 from rdflib import Graph, Literal, BNode
-import rdflib.plugins.sparql.processor
 from rdflib.namespace import (
     SDO,  # schema.org
     RDF,
     Namespace,
 )
+
+
+def resource_from_uri(uri, res_loc=-1):
+    if not uri:
+        # if uri is missing, create random one
+        return f"_{random.randint(0, 99999999):08}"
+    return uri.split("/")[res_loc]
 
 
 class OpenAlexGraph(Graph):
