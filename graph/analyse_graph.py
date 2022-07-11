@@ -22,7 +22,7 @@ UNI_QUERY_LIST = (
 )
 
 
-def query(g, q, verbose=False):
+def query(g, q, verbose=True):
     """
     Query graph.
 
@@ -96,6 +96,26 @@ def select_pubs_by_author(g=None):
     return query(g, q)
 
 
+def select_pubs_for_author(author, g=None):
+    """
+    Get the number of publication for specific author.
+    """
+    q = f"""
+        SELECT
+            (COUNT(?work) as ?WORK_NUMBER)
+        WHERE {{
+            ?id a schema:Person ;
+                schema:name ?name ;
+                schema:author ?work ;
+            
+            VALUES ?name {{ "{author}" }}
+        }}
+        GROUP BY ?name
+        ORDER BY DESC(?WORK_NUMBER)
+    """
+    return query(g, q)
+
+
 def select_citations_by_year(g=None):
     """
     Get number of citations for a university by year.
@@ -144,6 +164,7 @@ def construct_co_author_network(inst_a: str, inst_b: str, path, g=None):
             
             ?co_author_id a schema:Person ;
                 schema:name ?co_author_name ;
+                schema:colleague ?author_id ;
                 schema:member ?inst_b_id .
         }}
         WHERE {{
@@ -190,25 +211,26 @@ def select_venue_coord_by_uni(g=None):
     """
     Get list of venue coordinates by university.
     """
-    q = """
+    q = f"""
         SELECT
             (SAMPLE(?inst_name) as ?INST)
             (CONCAT('[', GROUP_CONCAT(CONCAT('(', str(?lat), ', ', str(?lng), ')'); separator=', '), ']') as ?COORD)
-        WHERE {
+            (CONCAT('[', GROUP_CONCAT(CONCAT('"', ?ven_name, '"'); separator=', '), ']') as ?VENUE)
+        WHERE {{
             ?id_inst a schema:EducationalOrganization ;
-                schema:name ?inst_name ;
-                schema:location [
-                    dbp:city dbr:Hamburg
-                ] .
-    
+                schema:name ?inst_name .
+                
+            VALUES ?inst_name {{ {UNI_QUERY_LIST} }}
+            
             ?work dbp:institution ?id_inst ;
                 schema:event [
+                    schema:name ?ven_name ;
                     schema:location [
                         schema:latitude ?lat ;
                         schema:longitude ?lng
                     ]
                 ]
-        }
+        }}
         GROUP BY ?inst_name
     """
     return query(g, q)
@@ -233,6 +255,6 @@ def select_members_by_inst(g=None):
 
 if __name__ == "__main__":
     DEFAULT_GRAPH = "../out/final_graph.ttl"
-    res = select_members_by_inst()
+    res = select_venue_coord_by_uni()
     df = res_to_dataframe(res)
     print(df.head(10))
