@@ -12,17 +12,19 @@ DEFAULT_GRAPH = "../out/graph.ttl"
 UNI_LABELS = {
     "haw": "Hamburg University of Applied Sciences",
     "tuhh": "Hamburg University of Technology",
-    "uhh": "Universität Hamburg"
+    "uhh": "Universität Hamburg",
+    "hsu": "Helmut Schmidt University",
 }
 
 UNI_QUERY_LIST = (
     '"Hamburg University of Applied Sciences" '
     '"Hamburg University of Technology" '
-    '"Universität Hamburg"'
+    '"Universität Hamburg" '
+    '"Helmut Schmidt University"'
 )
 
 
-def query(g, q, verbose=True):
+def query(g, q, verbose=False):
     """
     Query graph.
 
@@ -112,33 +114,6 @@ def select_pubs_for_author(author, g=None):
         }}
         GROUP BY ?name
         ORDER BY DESC(?WORK_NUMBER)
-    """
-    return query(g, q)
-
-
-def select_citations_by_year(g=None):
-    """
-    Get number of citations for a university by year.
-    """
-    q = f"""
-        SELECT ?inst_name ?year (SUM(?amount) as ?AMOUNT)
-        WHERE {{
-            {{
-                SELECT ?inst_id ?inst_name {{
-                    ?inst_id a schema:EducationalOrganization ;
-                        schema:name ?inst_name .
-                }}
-            }}
-            ?work dbp:institution ?inst_id ;
-                dbp:citation [
-                    dbp:amount ?amount ;
-                    dbp:year ?year
-                ] .
-            
-            VALUES ?inst_name {{ {UNI_QUERY_LIST} }}
-        }}
-        GROUP BY ?inst_name ?year
-        ORDER BY ?inst_name DESC(?year)
     """
     return query(g, q)
 
