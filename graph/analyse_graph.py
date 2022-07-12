@@ -229,7 +229,7 @@ def select_members_by_inst(g=None):
 
 
 if __name__ == "__main__":
-    DEFAULT_GRAPH = "../out/final_graph.ttl"
+    DEFAULT_GRAPH = "../out/graph.ttl"
     res = select_venue_coord_by_uni()
     df = res_to_dataframe(res)
     print(df.head(10))
